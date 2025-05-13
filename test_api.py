@@ -2,7 +2,6 @@ import requests
 import pytest
 from jsonschema import validate
 
-# Схема для проверки ответа GET
 API = "reqres-free-v1"
 HEADER = {
     "x-api-key": API
